@@ -1,0 +1,89 @@
+/* =========================================================================== */
+/* Large Device lg */
+/* =========================================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.main-title h2 {
+  font-size: 30px;
+}
+.right-title {
+  font-size: 20px;
+}
+.content-meta-data .item{
+  width: 30%;
+}
+.social-media-wrapper .social-btn {
+  padding: 8px 15px;
+}
+
+}
+
+
+/* =========================================================================== */
+/* Medium Device md */
+/* =========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-title h2 {
+    font-size: 20px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+  .right-title {
+    font-size: 16px;
+  }
+  .content-meta-data .item{
+    width: 50%;
+  }
+  .social-media-wrapper .social-btn {
+    padding: 8px 15px;
+  }
+  .social-media-wrapper .social-btn {
+    padding: 5px 5px;
+  }
+
+}
+
+/* =========================================================================== */
+/* Medium To Extra Small Device */
+/* =========================================================================== */
+@media only screen and (max-width: 767px) {
+  .main-title h2 {
+    font-size: 20px;
+  }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  .right-title {
+    font-size: 16px;
+  }
+  .social-media-wrapper .social-btn {
+    width: 49%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
+  .social-media-wrapper .social-btn {
+    padding: 5px 5px;
+  }
+
+  /* ----------- gallery area before after */
+  .gallery-wrapper .item {
+    width: 48%;
+    width: calc(50% - 10px);
+  }
+
+}
+
+
+
+/* Small Device sm */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ 
+}
+
+/* Extra Small device */
+@media only screen and (max-width: 575px) {
+  
+  .gallery-wrapper .item {
+    width: 100%;
+  }
+}
